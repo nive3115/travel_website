@@ -1,0 +1,111 @@
+body{
+    
+    font-family: 'Georgia', serif;
+    background-color:#fafafa;
+    color: #333;
+    font-size: 100%;
+    font-weight:bolder;
+}
+.navbar {
+    justify-content: flex-end;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    background-color: #fafafa;
+    position: sticky;
+    list-style:none;
+    display:flex;
+    gap: 10rem;
+    padding-top:1%;
+    padding-bottom:0.5%;
+}
+.hero h2 {
+  margin: 20px 0 10px;
+  font-size: 1.8rem;
+  color: #222;
+}
+
+.hero .date {
+  color: #888;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+/* Content */
+main p, main li {
+  margin-bottom: 15px;
+}
+
+main h3 {
+  margin-top: 40px;
+  font-size: 1.5rem;
+  color: #222;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+ul, ol {
+  padding-left: 20px;
+}
+
+/* Pros and Cons */
+.pros-cons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.pros, .cons {
+  flex: 1;
+  min-width: 250px;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Signup */
+.signup {
+  background: #f7f7f7;
+  padding: 20px;
+  margin: 40px 0;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.signup input {
+  padding: 10px;
+  width: 60%;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.signup button {
+  padding: 10px 20px;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.signup button:hover {
+  background-color: #222;
+}
+
+footer {
+  background: #f2f2f2;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #ddd;
+}

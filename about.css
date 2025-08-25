@@ -1,0 +1,32 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 20px;
+}
+
+.blog-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* To make it responsive on small screens */
+    gap: 20px;
+}
+
+.blog-item {
+    flex: 1 1 30%; /* Each item takes about 30% width */
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.blog-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.blog-item p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.4;
+}
